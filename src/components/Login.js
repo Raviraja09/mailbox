@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { login } from "../API/api";
 import "../index.css";
-import { authActions } from "../Store/authSlice";
+import { authActions } from "../STORE/AuthSlice";
 
 function Login() {
   const emailRef = useRef();
