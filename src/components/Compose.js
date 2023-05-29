@@ -2,7 +2,7 @@ import React, { Fragment, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { Navigate, useNavigate } from "react-router-dom";
 import "../CSS/Compose.css";
-import { mailActions } from "../Store/mailSlice";
+import { mailActions } from "../STORE/mailSlice";
 
 function Compose() {
   const toRef = useRef();
